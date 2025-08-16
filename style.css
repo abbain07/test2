@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.main{
+    height: 100%;
+}
+.parent-hero{
+    height: 100%;
+    padding: 18px;
+}
+.hero{
+    height: 100%;
+    color: white;
+    background-image: url('https://cdn.prod.website-files.com/671898ae57fbee5bf1da9fba/673daa20f8d824dc60d87727_6ca5979b6f014ba47a22c3f88928aabc_bg-1.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    position: relative;
+}
+.hero nav{
+    /* background-color: red; */
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-links, .nav-links div{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.nav-heading h2{
+    font-size: 44px;
+    font-weight: 500;
+}
+.nav-heading p{
+    color: #dbdbdb;
+    opacity: .6;
+}
+.nav-links button{
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+    background: transparent;
+    border: 1px solid hsl(0, 0%, 75%);
+    border-radius: 100px;
+}
+
+
+/* ----------  Section 1  --------------- */
+.section1{
+    height: 40%;
+    background: red;
+}
